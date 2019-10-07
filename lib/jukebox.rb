@@ -1,3 +1,5 @@
+require "pry"
+
 songs = [
   "Phoenix - 1901",
   "Tokyo Police Club - Wait Up",
@@ -25,6 +27,7 @@ def list(songs)
 end
 
 def play(songs)
+  bingding 
   puts "Please enter a song name or number:"
   input = gets.strip
   songs.each_with_index do |song, index|
