@@ -48,9 +48,9 @@ def run()
     if response == "help"
       help()
     elsif response == "list"
-      list()
+      list(songs)
     elsif response == "play"
-      play()
+      play(songs)
     end 
     response = gets.strip
   end
