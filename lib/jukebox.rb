@@ -54,6 +54,6 @@ def run()
     end 
     response = gets.strip
   end
-  exit_jukeboxt()
+  exit_jukebox()
 end 
     
