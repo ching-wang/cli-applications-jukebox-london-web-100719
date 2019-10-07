@@ -38,7 +38,7 @@ end
 
 
 def exit_jukebox()
-  return puts "Goodbye"
+  puts "Goodbye"
 end 
 
 def run()
